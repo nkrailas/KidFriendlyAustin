@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kid Friendly Austin</string>
+    <string name="austin_skyline">Skyline image of Austin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
