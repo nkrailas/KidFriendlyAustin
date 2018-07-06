@@ -24,18 +24,34 @@ public class PlayFragment extends Fragment {
 
         // Create a list of places to play
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.crux_climbing, getString(R.string.crux), getString(R.string.crux_info),
-                getString(R.string.crux_address), getString(R.string.crux_phone), getString(R.string.crux_website),
-                getString(R.string.crux_hours)));
-        places.add(new Place(R.drawable.peter_pan_mini_golf, getString(R.string.peter), getString(R.string.peter_info),
-                getString(R.string.peter_address), getString(R.string.peter_phone), getString(R.string.peter_website),
-                getString(R.string.peter_hours)));
-        places.add(new Place(R.drawable.austin_roller_rink, getString(R.string.roller), getString(R.string.roller_info),
-                getString(R.string.roller_address), getString(R.string.roller_phone), getString(R.string.roller_website),
-                getString(R.string.roller_hours)));
-        places.add(new Place(R.drawable.zilker_zephyr, getString(R.string.zephyr), getString(R.string.zephyr_info),
-                getString(R.string.zephyr_address), getString(R.string.zephyr_phone), getString(R.string.zephyr_website),
-                getString(R.string.zephyr_hours)));
+        places.add(new Place(R.drawable.crux_climbing,
+                getResources().getString(R.string.crux),
+                getResources().getString(R.string.crux_info),
+                getResources().getString(R.string.crux_address),
+                getResources().getString(R.string.crux_phone),
+                getResources().getString(R.string.crux_website),
+                getResources().getString(R.string.crux_hours)));
+        places.add(new Place(R.drawable.peter_pan_mini_golf,
+                getResources().getString(R.string.peter),
+                getResources().getString(R.string.peter_info),
+                getResources().getString(R.string.peter_address),
+                getResources().getString(R.string.peter_phone),
+                getResources().getString(R.string.peter_website),
+                getResources().getString(R.string.peter_hours)));
+        places.add(new Place(R.drawable.austin_roller_rink,
+                getResources().getString(R.string.roller),
+                getResources().getString(R.string.roller_info),
+                getResources().getString(R.string.roller_address),
+                getResources().getString(R.string.roller_phone),
+                getResources().getString(R.string.roller_website),
+                getResources().getString(R.string.roller_hours)));
+        places.add(new Place(R.drawable.zilker_zephyr,
+                getResources().getString(R.string.zephyr),
+                getResources().getString(R.string.zephyr_info),
+                getResources().getString(R.string.zephyr_address),
+                getResources().getString(R.string.zephyr_phone),
+                getResources().getString(R.string.zephyr_website),
+                getResources().getString(R.string.zephyr_hours)));
 
         // Create PlaceAdapter whose data source is a list of Places to create list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);

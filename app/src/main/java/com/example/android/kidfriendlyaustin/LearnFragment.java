@@ -24,18 +24,34 @@ public class LearnFragment extends Fragment {
 
         // Create a list of places to eat
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.thinkery, getString(R.string.thinkery), getString(R.string.thinkery_info),
-                getString(R.string.thinkery_address), getString(R.string.thinkery_phone), getString(R.string.thinkery_website),
-                getString(R.string.thinkery_hours)));
-        places.add(new Place(R.drawable.austin_central_library, getString(R.string.central_library),
-                getString(R.string.central_info), getString(R.string.central_address), getString(R.string.central_phone),
-                getString(R.string.central_website), getString(R.string.central_hours)));
-        places.add(new Place(R.drawable.austin_nature_science_center, getString(R.string.ansc), getString(R.string.ansc_info),
-                getString(R.string.ansc_address), getString(R.string.ansc_phone), getString(R.string.ansc_website),
-                getString(R.string.ansc_hours)));
-        places.add(new Place(R.drawable.lbj_wildflower_center, getString(R.string.wildflower), getString(R.string.wildflower_info),
-                getString(R.string.wildflower_address), getString(R.string.wildflower_phone), getString(R.string.wildflower_website),
-                getString(R.string.wildflower_hours)));
+        places.add(new Place(R.drawable.thinkery,
+                getResources().getString(R.string.thinkery),
+                getResources().getString(R.string.thinkery_info),
+                getResources().getString(R.string.thinkery_address),
+                getResources().getString(R.string.thinkery_phone),
+                getResources().getString(R.string.thinkery_website),
+                getResources().getString(R.string.thinkery_hours)));
+        places.add(new Place(R.drawable.austin_central_library,
+                getResources().getString(R.string.central_library),
+                getResources().getString(R.string.central_info),
+                getResources().getString(R.string.central_address),
+                getResources().getString(R.string.central_phone),
+                getResources().getString(R.string.central_website),
+                getResources().getString(R.string.central_hours)));
+        places.add(new Place(R.drawable.austin_nature_science_center,
+                getResources().getString(R.string.ansc),
+                getResources().getString(R.string.ansc_info),
+                getResources().getString(R.string.ansc_address),
+                getResources().getString(R.string.ansc_phone),
+                getResources().getString(R.string.ansc_website),
+                getResources().getString(R.string.ansc_hours)));
+        places.add(new Place(R.drawable.lbj_wildflower_center,
+                getResources().getString(R.string.wildflower),
+                getResources().getString(R.string.wildflower_info),
+                getResources().getString(R.string.wildflower_address),
+                getResources().getString(R.string.wildflower_phone),
+                getResources().getString(R.string.wildflower_website),
+                getResources().getString(R.string.wildflower_hours)));
 
         // Create PlaceAdapter whose data source is a list of Places to create list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);

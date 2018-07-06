@@ -24,18 +24,34 @@ public class FoodFragment extends Fragment {
 
         // Create a list of places to eat
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.kerbey_lane, getString(R.string.kerbey), getString(R.string.kerbey_info),
-                getString(R.string.kerbey_address), getString(R.string.kerbey_phone), getString(R.string.kerbey_website),
-                getString(R.string.kerbey_hours)));
-        places.add(new Place(R.drawable.mandolas, getString(R.string.mandolas), getString(R.string.mandolas_info),
-                getString(R.string.mandolas_address), getString(R.string.mandolas_phone), getString(R.string.mandolas_website),
-                getString(R.string.mandolas_hours)));
-        places.add(new Place(R.drawable.phils_icehouse, getString(R.string.phils), getString(R.string.phils_info),
-                getString(R.string.phils_address), getString(R.string.phils_phone), getString(R.string.phils_website),
-                getString(R.string.phils_hours)));
-        places.add(new Place(R.drawable.cherrywood, getString(R.string.cherrywood), getString(R.string.cherrywood_info),
-                getString(R.string.cherrywood_address), getString(R.string.cherrywood_phone), getString(R.string.cherrywood_website),
-                getString(R.string.cherrywood_hours)));
+        places.add(new Place(R.drawable.kerbey_lane,
+                getResources().getString(R.string.kerbey),
+                getResources().getString(R.string.kerbey_info),
+                getResources().getString(R.string.kerbey_address),
+                getResources().getString(R.string.kerbey_phone),
+                getResources().getString(R.string.kerbey_website),
+                getResources().getString(R.string.kerbey_hours)));
+        places.add(new Place(R.drawable.mandolas,
+                getResources().getString(R.string.mandolas),
+                getResources().getString(R.string.mandolas_info),
+                getResources().getString(R.string.mandolas_address),
+                getResources().getString(R.string.mandolas_phone),
+                getResources().getString(R.string.mandolas_website),
+                getResources().getString(R.string.mandolas_hours)));
+        places.add(new Place(R.drawable.phils_icehouse,
+                getResources().getString(R.string.phils),
+                getResources().getString(R.string.phils_info),
+                getResources().getString(R.string.phils_address),
+                getResources().getString(R.string.phils_phone),
+                getResources().getString(R.string.phils_website),
+                getResources().getString(R.string.phils_hours)));
+        places.add(new Place(R.drawable.cherrywood,
+                getResources().getString(R.string.cherrywood),
+                getResources().getString(R.string.cherrywood_info),
+                getResources().getString(R.string.cherrywood_address),
+                getResources().getString(R.string.cherrywood_phone),
+                getResources().getString(R.string.cherrywood_website),
+                getResources().getString(R.string.cherrywood_hours)));
 
         // Create PlaceAdapter whose data source is a list of Places to create list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
