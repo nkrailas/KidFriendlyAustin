@@ -12,9 +12,9 @@ import java.util.ArrayList;
 /**
  * A Fragment that displays a list of places to eat
  */
-public class FoodFragment extends Fragment {
+public class NatureFragment extends Fragment {
 
-    public FoodFragment() {
+    public NatureFragment() {
         // Required empty public constructor
     }
 
@@ -24,14 +24,18 @@ public class FoodFragment extends Fragment {
 
         // Create a list of places to eat
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.kerbey_lane, R.string.kerbey, R.string.kerbey_info,
-                R.string.kerbey_address, R.string.kerbey_phone, R.string.kerbey_website, R.string.kerbey_hours));
-        places.add(new Place(R.drawable.mandolas, R.string.mandolas, R.string.mandolas_info,
-                R.string.mandolas_address, R.string.mandolas_phone, R.string.mandolas_website, R.string.mandolas_hours));
-        places.add(new Place(R.drawable.phils_icehouse, R.string.phils, R.string.phils_info,
-                R.string.phils_address, R.string.phils_phone, R.string.phils_website, R.string.phils_hours));
-        places.add(new Place(R.drawable.cherrywood, R.string.cherrywood, R.string.cherrywood_info,
-                R.string.cherrywood_address, R.string.cherrywood_phone, R.string.cherrywood_website, R.string.cherrywood_hours));
+        places.add(new Place(R.drawable.south_congress_bridge_bats, R.string.bats, R.string.bats_info,
+                R.string.bats_address, R.string.bats_phone, R.string.bats_website,
+                R.string.bats_hours));
+        places.add(new Place(R.drawable.zilker_botanical_garden, R.string.botanical,
+                R.string.botanical_info, R.string.botanical_address, R.string.botanical_phone,
+                R.string.botanical_website, R.string.botanical_hours));
+        places.add(new Place(R.drawable.barton_springs_pool, R.string.barton, R.string.barton_info,
+                R.string.barton_address, R.string.barton_phone, R.string.barton_website,
+                R.string.barton_hours));
+        places.add(new Place(R.drawable.rowing_dock_atx, R.string.dock_atx,
+                R.string.dock_atx_info, R.string.dock_atx_address, R.string.dock_atx_phone,
+                R.string.dock_atx_website, R.string.dock_atx_hours));
 
         // Create PlaceAdapter whose data source is a list of Places creates list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);

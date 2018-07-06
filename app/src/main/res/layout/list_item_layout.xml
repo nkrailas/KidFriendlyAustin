@@ -4,62 +4,81 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/white"
-    android:minHeight="44dp">
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/background"
+    android:minHeight="@dimen/list_item_height">
 
     <ImageView
         android:id="@+id/place_image"
-        android:layout_width="22dp"
+        android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
-        android:contentDescription="@string/list_item_icon" />
+        android:contentDescription="@string/place_image" />
 
     <RelativeLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/list_item_height"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@id/place_image"
         android:orientation="vertical"
+        android:paddingEnd="4dp"
         android:paddingStart="16dp">
 
         <TextView
             android:id="@+id/name_text_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="bottom"
+            android:layout_height="@dimen/list_item_height"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/description_text_view"
+            android:id="@+id/info_text_view"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/list_item_height"
             android:layout_below="@id/name_text_view"
-            android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/address_text_view"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_below="@id/description_text_view"
-            android:gravity="top"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_below="@id/info_text_view"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/phone_text_view"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/list_item_height"
             android:layout_below="@id/address_text_view"
-            android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/website_text_view"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone_text_view"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hours_text_view"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/website_text_view"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
 
     </RelativeLayout>
 

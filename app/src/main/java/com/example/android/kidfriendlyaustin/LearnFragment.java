@@ -12,9 +12,9 @@ import java.util.ArrayList;
 /**
  * A Fragment that displays a list of places to eat
  */
-public class FoodFragment extends Fragment {
+public class LearnFragment extends Fragment {
 
-    public FoodFragment() {
+    public LearnFragment() {
         // Required empty public constructor
     }
 
@@ -24,14 +24,18 @@ public class FoodFragment extends Fragment {
 
         // Create a list of places to eat
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.kerbey_lane, R.string.kerbey, R.string.kerbey_info,
-                R.string.kerbey_address, R.string.kerbey_phone, R.string.kerbey_website, R.string.kerbey_hours));
-        places.add(new Place(R.drawable.mandolas, R.string.mandolas, R.string.mandolas_info,
-                R.string.mandolas_address, R.string.mandolas_phone, R.string.mandolas_website, R.string.mandolas_hours));
-        places.add(new Place(R.drawable.phils_icehouse, R.string.phils, R.string.phils_info,
-                R.string.phils_address, R.string.phils_phone, R.string.phils_website, R.string.phils_hours));
-        places.add(new Place(R.drawable.cherrywood, R.string.cherrywood, R.string.cherrywood_info,
-                R.string.cherrywood_address, R.string.cherrywood_phone, R.string.cherrywood_website, R.string.cherrywood_hours));
+        places.add(new Place(R.drawable.thinkery, R.string.thinkery, R.string.thinkery_info,
+                R.string.thinkery_address, R.string.thinkery_phone, R.string.thinkery_website,
+                R.string.thinkery_hours));
+        places.add(new Place(R.drawable.austin_central_library, R.string.central_library,
+                R.string.central_info, R.string.central_address, R.string.central_phone,
+                R.string.central_website, R.string.central_hours));
+        places.add(new Place(R.drawable.austin_nature_science_center, R.string.ansc,
+                R.string.ansc_info, R.string.ansc_address, R.string.ansc_phone, R.string.ansc_website,
+                R.string.ansc_hours));
+        places.add(new Place(R.drawable.lbj_wildflower_center, R.string.wildflower,
+                R.string.wildflower_info, R.string.wildflower_address, R.string.wildflower_phone,
+                R.string.wildflower_website, R.string.wildflower_hours));
 
         // Create PlaceAdapter whose data source is a list of Places creates list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);

@@ -12,9 +12,9 @@ import java.util.ArrayList;
 /**
  * A Fragment that displays a list of places to eat
  */
-public class FoodFragment extends Fragment {
+public class PlayFragment extends Fragment {
 
-    public FoodFragment() {
+    public PlayFragment() {
         // Required empty public constructor
     }
 
@@ -22,16 +22,20 @@ public class FoodFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list_item_view, container, false);
 
-        // Create a list of places to eat
+        // Create a list of places to play
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.kerbey_lane, R.string.kerbey, R.string.kerbey_info,
-                R.string.kerbey_address, R.string.kerbey_phone, R.string.kerbey_website, R.string.kerbey_hours));
-        places.add(new Place(R.drawable.mandolas, R.string.mandolas, R.string.mandolas_info,
-                R.string.mandolas_address, R.string.mandolas_phone, R.string.mandolas_website, R.string.mandolas_hours));
-        places.add(new Place(R.drawable.phils_icehouse, R.string.phils, R.string.phils_info,
-                R.string.phils_address, R.string.phils_phone, R.string.phils_website, R.string.phils_hours));
-        places.add(new Place(R.drawable.cherrywood, R.string.cherrywood, R.string.cherrywood_info,
-                R.string.cherrywood_address, R.string.cherrywood_phone, R.string.cherrywood_website, R.string.cherrywood_hours));
+        places.add(new Place(R.drawable.crux_climbing, R.string.crux, R.string.crux_info,
+                R.string.crux_address, R.string.crux_phone, R.string.crux_website,
+                R.string.crux_hours));
+        places.add(new Place(R.drawable.peter_pan_mini_golf, R.string.peter, R.string.peter_info,
+                R.string.peter_address, R.string.peter_phone, R.string.peter_website,
+                R.string.peter_hours));
+        places.add(new Place(R.drawable.austin_roller_rink, R.string.roller, R.string.roller_info,
+                R.string.roller_address, R.string.roller_phone, R.string.roller_website,
+                R.string.roller_hours));
+        places.add(new Place(R.drawable.zilker_zephyr, R.string.zephyr, R.string.zephyr_info,
+                R.string.zephyr_address, R.string.zephyr_phone, R.string.zephyr_website,
+                R.string.zephyr_hours));
 
         // Create PlaceAdapter whose data source is a list of Places creates list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
