@@ -24,26 +24,26 @@ public class NatureFragment extends Fragment {
 
         // Create a list of places to eat
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.south_congress_bridge_bats, R.string.bats, R.string.bats_info,
-                R.string.bats_address, R.string.bats_phone, R.string.bats_website,
-                R.string.bats_hours));
-        places.add(new Place(R.drawable.zilker_botanical_garden, R.string.botanical,
-                R.string.botanical_info, R.string.botanical_address, R.string.botanical_phone,
-                R.string.botanical_website, R.string.botanical_hours));
-        places.add(new Place(R.drawable.barton_springs_pool, R.string.barton, R.string.barton_info,
-                R.string.barton_address, R.string.barton_phone, R.string.barton_website,
-                R.string.barton_hours));
-        places.add(new Place(R.drawable.rowing_dock_atx, R.string.dock_atx,
-                R.string.dock_atx_info, R.string.dock_atx_address, R.string.dock_atx_phone,
-                R.string.dock_atx_website, R.string.dock_atx_hours));
+        places.add(new Place(R.drawable.south_congress_bridge_bats, getString(R.string.bats), getString(R.string.bats_info),
+                getString(R.string.bats_address), getString(R.string.bats_phone), getString(R.string.bats_website),
+                getString(R.string.bats_hours)));
+        places.add(new Place(R.drawable.zilker_botanical_garden, getString(R.string.botanical),
+                getString(R.string.botanical_info), getString(R.string.botanical_address), getString(R.string.botanical_phone),
+                getString(R.string.botanical_website), getString(R.string.botanical_hours)));
+        places.add(new Place(R.drawable.barton_springs_pool, getString(R.string.barton), getString(R.string.barton_info),
+                getString(R.string.barton_address), getString(R.string.barton_phone), getString(R.string.barton_website),
+                getString(R.string.barton_hours)));
+        places.add(new Place(R.drawable.rowing_dock_atx, getString(R.string.dock_atx), getString(R.string.dock_atx_info),
+                getString(R.string.dock_atx_address), getString(R.string.dock_atx_phone), getString(R.string.dock_atx_website),
+                getString(R.string.dock_atx_hours)));
 
-        // Create PlaceAdapter whose data source is a list of Places creates list items for each place
+        // Create PlaceAdapter whose data source is a list of Places to create list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
         // Find the ListView object in the Activity which is @id list_item_view in list_item_view.xml
         ListView listView = rootView.findViewById(R.id.list_item_view);
 
-        // The ListView uses the PlaceAdapter to display list items for each Place in the list.
+        // The ListView uses the PlaceAdapter to display list items for each Place in the list
         listView.setAdapter(adapter);
 
         return rootView;

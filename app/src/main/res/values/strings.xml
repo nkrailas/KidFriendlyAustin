@@ -1,4 +1,5 @@
 <resources>
+
     // XML
     <string name="app_name">Kid Friendly Austin</string>
     <string name="austin_skyline">Skyline image of Austin</string>
@@ -17,21 +18,21 @@
     <string name="kerbey_address">3704 Kerbey Lane, Austin, TX 78731</string>
     <string name="kerbey_phone">512.451.1436</string>
     <string name="kerbey_website">www.kerbeylanecafe.com</string>
-    <string name="kerbey_hours">Sun-Thu: 630am-11pm | Fri-Sat: 630am-Midnight</string>
+    <string name="kerbey_hours">Sun-Thu: 630am-11pm, Fri-Sat: 630am-Midnight</string>
 
     <string name="phils">Phil\'s Ice House</string>
     <string name="phils_info">Enjoy burgers, Amy\'s Ice Cream, and playground on patio.</string>
     <string name="phils_address">2901 S. Lamar Ave, Austin, TX 78704</string>
     <string name="phils_phone">512.707.8704</string>
     <string name="phils_website">www.philsicehouse.com</string>
-    <string name="phils_hours">Sun-Thu: 11am-9pm | Fri-Sat: 11am-10pm</string>
+    <string name="phils_hours">Sun-Thu: 11am-9pm, Fri-Sat: 11am-10pm</string>
 
     <string name="mandolas">Mandola\'s Italian</string>
     <string name="mandolas_info">Italian dishes, gelato, and shared playground.</string>
     <string name="mandolas_address">4700 Guadalupe St #12, Austin, TX 78751</string>
     <string name="mandolas_phone">512.419.9700</string>
     <string name="mandolas_website">www.mandolas.com</string>
-    <string name="mandolas_hours">Mon-Sat: 11am-10pm | Sun: 11am-9pm</string>
+    <string name="mandolas_hours">Mon-Sat: 11am-10pm, Sun: 11am-9pm</string>
 
     <string name="cherrywood">Cherrywood Coffeehouse</string>
     <string name="cherrywood_info">Quirky and fun spot in East Austin. Kids show every Sunday at 10am!</string>
@@ -127,6 +128,5 @@
     <string name="dock_atx_phone">512.459.0999</string>
     <string name="dock_atx_website">www.rowingdock.com</string>
     <string name="dock_atx_hours">Daily: 7:30am-8:30pm</string>
-
 
 </resources>

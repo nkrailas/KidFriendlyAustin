@@ -24,26 +24,26 @@ public class LearnFragment extends Fragment {
 
         // Create a list of places to eat
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(R.drawable.thinkery, R.string.thinkery, R.string.thinkery_info,
-                R.string.thinkery_address, R.string.thinkery_phone, R.string.thinkery_website,
-                R.string.thinkery_hours));
-        places.add(new Place(R.drawable.austin_central_library, R.string.central_library,
-                R.string.central_info, R.string.central_address, R.string.central_phone,
-                R.string.central_website, R.string.central_hours));
-        places.add(new Place(R.drawable.austin_nature_science_center, R.string.ansc,
-                R.string.ansc_info, R.string.ansc_address, R.string.ansc_phone, R.string.ansc_website,
-                R.string.ansc_hours));
-        places.add(new Place(R.drawable.lbj_wildflower_center, R.string.wildflower,
-                R.string.wildflower_info, R.string.wildflower_address, R.string.wildflower_phone,
-                R.string.wildflower_website, R.string.wildflower_hours));
+        places.add(new Place(R.drawable.thinkery, getString(R.string.thinkery), getString(R.string.thinkery_info),
+                getString(R.string.thinkery_address), getString(R.string.thinkery_phone), getString(R.string.thinkery_website),
+                getString(R.string.thinkery_hours)));
+        places.add(new Place(R.drawable.austin_central_library, getString(R.string.central_library),
+                getString(R.string.central_info), getString(R.string.central_address), getString(R.string.central_phone),
+                getString(R.string.central_website), getString(R.string.central_hours)));
+        places.add(new Place(R.drawable.austin_nature_science_center, getString(R.string.ansc), getString(R.string.ansc_info),
+                getString(R.string.ansc_address), getString(R.string.ansc_phone), getString(R.string.ansc_website),
+                getString(R.string.ansc_hours)));
+        places.add(new Place(R.drawable.lbj_wildflower_center, getString(R.string.wildflower), getString(R.string.wildflower_info),
+                getString(R.string.wildflower_address), getString(R.string.wildflower_phone), getString(R.string.wildflower_website),
+                getString(R.string.wildflower_hours)));
 
-        // Create PlaceAdapter whose data source is a list of Places creates list items for each place
+        // Create PlaceAdapter whose data source is a list of Places to create list items for each place
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
         // Find the ListView object in the Activity which is @id list_item_view in list_item_view.xml
         ListView listView = rootView.findViewById(R.id.list_item_view);
 
-        // The ListView uses the PlaceAdapter to display list items for each Place in the list.
+        // The ListView uses the PlaceAdapter to display list items for each Place in the list
         listView.setAdapter(adapter);
 
         return rootView;

@@ -11,12 +11,12 @@ public class Place {
     private int aPlaceImage;
 
     // String resource IDs for name, information, address, phone, website, and hours for place
-    private int aPlaceName;
-    private int aPlaceInfo;
-    private int aPlaceAddress;
-    private int aPlacePhone;
-    private int aPlaceWebsite;
-    private int aPlaceHours;
+    private String aPlaceName;
+    private String aPlaceInfo;
+    private String aPlaceAddress;
+    private String aPlacePhone;
+    private String aPlaceWebsite;
+    private String aPlaceHours;
 
     /**
      * Create a new Place object.
@@ -29,8 +29,8 @@ public class Place {
      * @param placeWebsite String resource ID for the website of the place
      * @param placeHours   String resource ID for the hours of the place
      */
-    public Place(int placeImage, int placeName, int placeInfo, int placeAddress,
-                 int placePhone, int placeWebsite, int placeHours) {
+    public Place(int placeImage, String placeName, String placeInfo, String placeAddress,
+                 String placePhone, String placeWebsite, String placeHours) {
         aPlaceImage = placeImage;
         aPlaceName = placeName;
         aPlaceInfo = placeInfo;
@@ -46,32 +46,32 @@ public class Place {
     }
 
     // Get the string resource ID for the name of the place
-    public int getPlaceName() {
+    public String getPlaceName() {
         return aPlaceName;
     }
 
     // Get the string resource ID for information about the place
-    public int getPlaceInfo() {
+    public String getPlaceInfo() {
         return aPlaceInfo;
     }
 
     // Get the string resource ID for the address of the place
-    public int getPlaceAddress() {
+    public String getPlaceAddress() {
         return aPlaceAddress;
     }
 
     // Get the string resource ID for the phone number the place
-    public int getPlacePhone() {
+    public String getPlacePhone() {
         return aPlacePhone;
     }
 
     // Get the string resource ID for website about the place
-    public int getPlaceWebsite() {
+    public String getPlaceWebsite() {
         return aPlaceWebsite;
     }
 
     // Get the string resource ID for hours about the place
-    public int getPlaceHours() {
+    public String getPlaceHours() {
         return aPlaceHours;
     }
 
