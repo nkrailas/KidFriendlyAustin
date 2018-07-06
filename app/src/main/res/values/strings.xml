@@ -3,6 +3,7 @@
     <string name="app_name">Kid Friendly Austin</string>
     <string name="austin_skyline">Skyline image of Austin</string>
     <string name="place_image">Image of the place in the list</string>
+    <string name="kid_friendly">Kid Friendly</string>
 
     // Tabs
     <string name="category_food">Food</string>
