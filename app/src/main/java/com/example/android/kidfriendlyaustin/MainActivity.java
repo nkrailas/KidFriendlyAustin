@@ -31,4 +31,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-// Photo credits: Austin skyline image (https://www.pinterest.com/pin/30188259981538281/)
+// Photo credits: Austin skyline image (https://www.cathrynvilbig.com/wish-you-were-here/)
