@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -62,10 +63,6 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Find the TextView in the list_item_layout with the @id website_text_view
         TextView website = listItemView.findViewById(R.id.website_text_view);
         website.setText(currentPlace.getPlaceWebsite());
-
-        // Find the TextView in the list_item_layout with the @id hours_text_view
-        TextView hours = listItemView.findViewById(R.id.hours_text_view);
-        hours.setText(currentPlace.getPlaceHours());
 
         // Return the entire list_item_layout (containing 1 ImageView and 6 TextViews) in ListView
         return listItemView;

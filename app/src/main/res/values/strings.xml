@@ -7,126 +7,158 @@
     <string name="kid_friendly">Kid Friendly</string>
 
     // Tabs
-    <string name="category_food">Food</string>
+    <string name="category_eat">Eat</string>
     <string name="category_play">Play</string>
     <string name="category_learn">Learn</string>
-    <string name="category_nature">Nature</string>
+    <string name="category_shop">Shop</string>
 
-    // Food Fragment
+    // Eat Fragment
     <string name="kerbey">Kerbey Lane Cafe</string>
-    <string name="kerbey_info">Best breakfast and queso in Austin! Kids eat free on Tuesdays.</string>
+    <string name="kerbey_info">Kids eat free on Tuesdays.</string>
     <string name="kerbey_address">3704 Kerbey Lane, Austin, TX 78731</string>
     <string name="kerbey_phone">512.451.1436</string>
     <string name="kerbey_website">www.kerbeylanecafe.com</string>
-    <string name="kerbey_hours">Sun-Thu: 630am-11pm, Fri-Sat: 630am-Midnight</string>
 
     <string name="phils">Phil\'s Ice House</string>
-    <string name="phils_info">Enjoy burgers, Amy\'s Ice Cream, and playground on patio.</string>
+    <string name="phils_info">Amy\'s Ice Cream. Playground.</string>
     <string name="phils_address">2901 S. Lamar Ave, Austin, TX 78704</string>
     <string name="phils_phone">512.707.8704</string>
     <string name="phils_website">www.philsicehouse.com</string>
-    <string name="phils_hours">Sun-Thu: 11am-9pm, Fri-Sat: 11am-10pm</string>
 
     <string name="mandolas">Mandola\'s Italian</string>
-    <string name="mandolas_info">Italian dishes, gelato, and shared playground.</string>
+    <string name="mandolas_info"> Pasta. Gelato. Playground.</string>
     <string name="mandolas_address">4700 Guadalupe St #12, Austin, TX 78751</string>
     <string name="mandolas_phone">512.419.9700</string>
     <string name="mandolas_website">www.mandolas.com</string>
-    <string name="mandolas_hours">Mon-Sat: 11am-10pm, Sun: 11am-9pm</string>
 
     <string name="cherrywood">Cherrywood Coffeehouse</string>
-    <string name="cherrywood_info">Quirky and fun spot in East Austin. Kids show every Sunday at 10am!</string>
+    <string name="cherrywood_info">Kids show every Sun at 10am!</string>
     <string name="cherrywood_address">1400 E. 38th ½ St, Austin, TX 78722</string>
     <string name="cherrywood_phone">512.538.1991</string>
     <string name="cherrywood_website">www.cherrywoodcoffeehouse.com</string>
-    <string name="cherrywood_hours">Daily: 7am-Midnight</string>
+
+    <string name="wholefoods">Whole Foods Market</string>
+    <string name="wholefoods_info"> Rooftop seating, playground, rink.</string>
+    <string name="wholefoods_address">525 N. Lamar Blvd, Austin, TX 78703</string>
+    <string name="wholefoods_phone">512.542.2200</string>
+    <string name="wholefoods_website">www.wholefoodsmarket.com</string>
+
+    <string name="lick">Lick Honest Ice Creams</string>
+    <string name="lick_info">Pure ingredients. Dairy-free options.</string>
+    <string name="lick_address">1100 S. Lamar Blvd #1135, Austin, TX 78704</string>
+    <string name="lick_phone">512.363.5622</string>
+    <string name="lick_website">www.ilikelick.com</string>
 
     // Play Fragment
     <string name="crux">Crux Climbing Center</string>
-    <string name="crux_info">Onsite food trucks. Members only, Mon-Fri: 6am-11pm</string>
+    <string name="crux_info">Auto belays! Onsite food trucks.</string>
     <string name="crux_address">121 Pickle Rd #100, Austin, TX 78704</string>
     <string name="crux_phone">512.472.1033</string>
     <string name="crux_website">www.cruxclimbingcenter.com</string>
-    <string name="crux_hours">Mon-Fri: 11am -11pm, Sat-Sun: 10am-10pm</string>
 
     <string name="peter">Peter Pan\'s Mini Golf</string>
     <string name="peter_info">Two 18-hole courses. Cash only!</string>
     <string name="peter_address">1207 Barton Springs Rd, Austin, TX 78704</string>
     <string name="peter_phone">512.472.1033</string>
     <string name="peter_website">www.peterpanminigolf.com</string>
-    <string name="peter_hours">Sun-Thu: 9am-Midnight, Fri-Sat: 9am-1am</string>
 
     <string name="roller">Austin Roller Rink</string>
-    <string name="roller_info">Family fun place with arcade games. Hours listed below for kids.</string>
+    <string name="roller_info">Check for kid\'s hours. Arcade.</string>
     <string name="roller_address">11600 Manchaca Rd, Austin, TX 78748</string>
     <string name="roller_phone">512.292.7528</string>
     <string name="roller_website">www.austinrollerrink.com</string>
-    <string name="roller_hours">Thu: 5pm-9pm, Fri: 7pm-11pm, Sat: 12pm-8pm, Sun: 1pm-5pm</string>
 
-    <string name="zephyr">Zilker Zephyr</string>
-    <string name="zephyr_info">Enjoy a 25-minute train ride through Zilker Park. Cash only!</string>
+    <string name="zephyr">Zilker Zephyr Miniature Train</string>
+    <string name="zephyr_info">Enjoy a 25-minute ride. Cash only!</string>
     <string name="zephyr_address">2100 Barton Springs Rd, Austin, TX 78704</string>
     <string name="zephyr_phone">512.478.8286</string>
     <string name="zephyr_website">www.zilkerpark.org/zilker-park-amenities</string>
-    <string name="zephyr_hours">Mon-Fri: Every hour, Sat-Sun: Every 40 minutes</string>
-
-    // Learn Fragment
-    <string name="thinkery">The Thinkery</string>
-    <string name="thinkery_info">Special hours for Baby Bloomers (Mon: 9am-12pm, Sat: 9am-10am)
-    and Community Night (Wed: 4pm-8pm, admission by donation)</string>
-    <string name="thinkery_address">1830 Simond Ave, Austin, TX 78723</string>
-    <string name="thinkery_phone">512.469.6200</string>
-    <string name="thinkery_website">www.thinkeryaustin.org</string>
-    <string name="thinkery_hours">Mon: 12pm-5pm, Tue-Fri: 10am-5pm, Sat-Sun: 10am-6pm</string>
-
-    <string name="central_library">Austin Central Library</string>
-    <string name="central_info">Check events calendar for activities</string>
-    <string name="central_address">710 W. Cesar Chavez St, Austin, TX 78701</string>
-    <string name="central_phone">512.974.7400</string>
-    <string name="central_website">www.library.austintexas.gov/central-library</string>
-    <string name="central_hours">Mon-Thu: 10am-9pm, Fri-Sat: 10am-6pm, Sun: 12pm-6pm</string>
-
-    <string name="ansc">Austin Nature and Science Center</string>
-    <string name="ansc_info">Free! Dino pit, animals, birds of prey, and more!</string>
-    <string name="ansc_address">2389 Stratford Dr, Austin, TX 78746</string>
-    <string name="ansc_phone">512.974.3888</string>
-    <string name="ansc_website">www.austintexas.gov/department/austin-nature-and-science-center</string>
-    <string name="ansc_hours">Mon-Sat: 9am-5pm, Sun: 12pm-5pm</string>
-
-    <string name="wildflower">The Wildflower Center</string>
-    <string name="wildflower_info">Ages 0-4 are free. Onsite cafe. Members only, Thu/Sat: 730am-5pm</string>
-    <string name="wildflower_address">4801 LaCrosse Ave, Austin, TX 78739</string>
-    <string name="wildflower_phone">512.232.0200</string>
-    <string name="wildflower_website">www.wildflower.org</string>
-    <string name="wildflower_hours">Open daily, 9am-5pm</string>
-
-    // Nature Fragment
-    <string name="bats">South Congress Bridge Bats</string>
-    <string name="bats_info">Bring blankets and cover your heads!</string>
-    <string name="bats_address">100 S. Congress Ave, Austin, TX 78701</string>
-    <string name="bats_phone">512.327.9721</string>
-    <string name="bats_website">www.batsinaustin.com</string>
-    <string name="bats_hours">Daily (Mar-Nov): 7pm-8pm</string>
-
-    <string name="botanical">Zilker Botanical Garden</string>
-    <string name="botanical_info">Check events for kids activities. Ages 3-12 are $1.</string>
-    <string name="botanical_address">2220 Barton Springs Rd, Austin, TX 78704</string>
-    <string name="botanical_phone">512.477.8672</string>
-    <string name="botanical_website">www.austintexas.gov/zilkerbotanicalgarden</string>
-    <string name="botanical_hours">Daily: 9am-6pm</string>
 
     <string name="barton">Barton Springs Pool</string>
-    <string name="barton_info">Spring-fed swimming hole.</string>
+    <string name="barton_info">Spring-fed. Year-round. 3 acres.</string>
     <string name="barton_address">2201 Barton Springs Rd, Austin, TX 78704</string>
     <string name="barton_phone">512.974.6300</string>
     <string name="barton_website">www.austintexas.gov/department/barton-springs_pool</string>
-    <string name="barton_hours">Fri-Wed: 5am-10pm, Th: 5am-9am/7pm-10pm</string>
 
     <string name="dock_atx">Rowing Dock ATX</string>
-    <string name="dock_atx_info">Kayak, SUP, and canoe on Lady Bird Lake</string>
+    <string name="dock_atx_info">Be afloat on Lady Bird Lake.</string>
     <string name="dock_atx_address">2418 Stratford Dr, Austin, TX 78746</string>
     <string name="dock_atx_phone">512.459.0999</string>
     <string name="dock_atx_website">www.rowingdock.com</string>
-    <string name="dock_atx_hours">Daily: 7:30am-8:30pm</string>
+
+    // Learn Fragment
+    <string name="thinkery">The Thinkery</string>
+    <string name="thinkery_info">STEM learning for all ages.</string>
+    <string name="thinkery_address">1830 Simond Ave, Austin, TX 78723</string>
+    <string name="thinkery_phone">512.469.6200</string>
+    <string name="thinkery_website">www.thinkeryaustin.org</string>
+
+    <string name="central_library">Austin Central Library</string>
+    <string name="central_info">Fun children\'s floor with patio.</string>
+    <string name="central_address">710 W. Cesar Chavez St, Austin, TX 78701</string>
+    <string name="central_phone">512.974.7400</string>
+    <string name="central_website">www.library.austintexas.gov/central-library</string>
+
+    <string name="ansc">Austin Nature &amp; Science Center</string>
+    <string name="ansc_info">Free! Dino pit, birds and animals.</string>
+    <string name="ansc_address">2389 Stratford Dr, Austin, TX 78746</string>
+    <string name="ansc_phone">512.974.3888</string>
+    <string name="ansc_website">www.austintexas.gov/department/austin-nature-and-science-center</string>
+
+    <string name="wildflower">The Wildflower Center</string>
+    <string name="wildflower_info">Free for 4 and under. Onsite cafe. </string>
+    <string name="wildflower_address">4801 LaCrosse Ave, Austin, TX 78739</string>
+    <string name="wildflower_phone">512.232.0200</string>
+    <string name="wildflower_website">www.wildflower.org</string>
+
+    <string name="bats">South Congress Bridge Bats</string>
+    <string name="bats_info">Bring blankets. Cover your heads!</string>
+    <string name="bats_address">100 S. Congress Ave, Austin, TX 78701</string>
+    <string name="bats_phone">512.327.9721</string>
+    <string name="bats_website">www.batsinaustin.com</string>
+
+    <string name="botanical">Zilker Botanical Garden</string>
+    <string name="botanical_info">Trails and gardens. Kids are $1.</string>
+    <string name="botanical_address">2220 Barton Springs Rd, Austin, TX 78704</string>
+    <string name="botanical_phone">512.477.8672</string>
+    <string name="botanical_website">www.austintexas.gov/zilkerbotanicalgarden</string>
+
+    // Shop Fragment
+
+    <string name="bookpeople">BookPeople</string>
+    <string name="bookpeople_info">Kids storytime. Onsite cafe.</string>
+    <string name="bookpeople_address">603 N. Lamar Blvd, Austin, TX 78703</string>
+    <string name="bookpeople_phone">512.472.5050</string>
+    <string name="bookpeople_website">www.bookpeople.com</string>
+
+    <string name="toyjoy">Toy Joy</string>
+    <string name="toyjoy_info">Top 10 toy stores in the world!</string>
+    <string name="toyjoy_address">403 2. 2nd St, Austin, TX 78701</string>
+    <string name="toyjoy_phone">512.320.0090</string>
+    <string name="toyjoy_website">www.toyjoy.com</string>
+
+    <string name="terra">Terra Toys</string>
+    <string name="terra_info">Classic. Beautiful. Fun. </string>
+    <string name="terra_address">2438 Anderson Lane, Austin, TX 78757</string>
+    <string name="terra_phone">512.445.4498</string>
+    <string name="terra_website">www.terratoys.com</string>
+
+    <string name="lions">Lions &amp; Tigers &amp; Toys</string>
+    <string name="lions_info">Wooden, green, retro, unique toys.</string>
+    <string name="lions_address">4301 W. William Cannon Dr #E220, Austin, TX 78749</string>
+    <string name="lions_phone">512.892.7627</string>
+    <string name="lions_website">www.toystoreaustintx.com</string>
+
+    <string name="whole_earth">Whole Earth Provisions</string>
+    <string name="whole_earth_info">Outdoor gear for the family.</string>
+    <string name="whole_earth_address">4477 S. Lamar Blvd, Austin, TX 78745</string>
+    <string name="whole_earth_phone">512.899.0992</string>
+    <string name="whole_earth_website">www.wholeearthprovision.com</string>
+
+    <string name="kidtokid">Kid To Kid</string>
+    <string name="kidtokid_info">Best of kids\' resale.</string>
+    <string name="kidtokid_address">5300 S. Mo Pac Expy, Austin, TX 78749</string>
+    <string name="kidtokid_phone">512.358.0915</string>
+    <string name="kidtokid_website">www.kidtokid.com</string>
 
 </resources>

@@ -13,17 +13,17 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:contentDescription="@string/austin_skyline"
-        android:src="@drawable/austin_rainbow" />
+        android:src="@drawable/austin_postcard" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
         android:text="@string/kid_friendly"
-        android:textColor="@android:color/black"
-        android:textSize="36sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="@dimen/banner_padding"
+        android:textColor="@color/background"
+        android:textSize="@dimen/banner_text_size"
         android:textStyle="bold" />
 
     <android.support.design.widget.TabLayout

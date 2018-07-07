@@ -30,3 +30,5 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 }
+
+// Photo credits: Austin skyline image (https://www.pinterest.com/pin/30188259981538281/)

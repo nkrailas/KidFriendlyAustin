@@ -30,26 +30,26 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new FoodFragment();
+            return new EatFragment();
         } else if (position == 1) {
             return new PlayFragment();
         } else if (position == 2) {
             return new LearnFragment();
         } else {
-            return new NatureFragment();
+            return new ShopFragment();
         }
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return cContext.getString(R.string.category_food);
+            return cContext.getString(R.string.category_eat);
         } else if (position == 1) {
             return cContext.getString(R.string.category_play);
         } else if (position == 2) {
             return cContext.getString(R.string.category_learn);
         } else {
-            return cContext.getString(R.string.category_nature);
+            return cContext.getString(R.string.category_shop);
         }
     }
 
